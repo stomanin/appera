@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B91FF7751DE1F3A7004E4110"
-               BuildableName = "soundbutton.app"
-               BlueprintName = "soundbutton"
-               ReferencedContainer = "container:soundbutton.xcodeproj">
+               BuildableName = "PushUpInside.app"
+               BlueprintName = "PushUpInside"
+               ReferencedContainer = "container:PushUpInside.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B91FF7891DE1F3A7004E4110"
-               BuildableName = "soundbuttonTests.xctest"
-               BlueprintName = "soundbuttonTests"
-               ReferencedContainer = "container:soundbutton.xcodeproj">
+               BuildableName = "PushUpInside.xctest"
+               BlueprintName = "PushUpInsideTests"
+               ReferencedContainer = "container:PushUpInside.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B91FF7941DE1F3A7004E4110"
-               BuildableName = "soundbuttonUITests.xctest"
-               BlueprintName = "soundbuttonUITests"
-               ReferencedContainer = "container:soundbutton.xcodeproj">
+               BuildableName = "PushUpInside.xctest"
+               BlueprintName = "PushUpInsideUITests"
+               ReferencedContainer = "container:PushUpInside.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B91FF7751DE1F3A7004E4110"
-            BuildableName = "soundbutton.app"
-            BlueprintName = "soundbutton"
-            ReferencedContainer = "container:soundbutton.xcodeproj">
+            BuildableName = "PushUpInside.app"
+            BlueprintName = "PushUpInside"
+            ReferencedContainer = "container:PushUpInside.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B91FF7751DE1F3A7004E4110"
-            BuildableName = "soundbutton.app"
-            BlueprintName = "soundbutton"
-            ReferencedContainer = "container:soundbutton.xcodeproj">
+            BuildableName = "PushUpInside.app"
+            BlueprintName = "PushUpInside"
+            ReferencedContainer = "container:PushUpInside.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B91FF7751DE1F3A7004E4110"
-            BuildableName = "soundbutton.app"
-            BlueprintName = "soundbutton"
-            ReferencedContainer = "container:soundbutton.xcodeproj">
+            BuildableName = "PushUpInside.app"
+            BlueprintName = "PushUpInside"
+            ReferencedContainer = "container:PushUpInside.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

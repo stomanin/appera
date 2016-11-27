@@ -48,17 +48,17 @@
 		B91FBE151DEB57C5005E3C09 /* james.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = james.mp3; sourceTree = "<group>"; };
 		B91FBE161DEB57C5005E3C09 /* stanley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stanley.mp3; sourceTree = "<group>"; };
 		B91FBE171DEB57C5005E3C09 /* snap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snap.mp3; sourceTree = "<group>"; };
-		B91FF7761DE1F3A7004E4110 /* soundbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundbutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91FF7761DE1F3A7004E4110 /* PushUpInside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUpInside.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF7791DE1F3A7004E4110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B91FF77B1DE1F3A7004E4110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B91FF77E1DE1F3A7004E4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B91FF7801DE1F3A7004E4110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91FF7831DE1F3A7004E4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91FF7851DE1F3A7004E4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B91FF78A1DE1F3A7004E4110 /* soundbuttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundbuttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91FF78A1DE1F3A7004E4110 /* PushUpInside.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushUpInside.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF78E1DE1F3A7004E4110 /* soundbuttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundbuttonTests.swift; sourceTree = "<group>"; };
 		B91FF7901DE1F3A7004E4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B91FF7951DE1F3A7004E4110 /* soundbuttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soundbuttonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91FF7951DE1F3A7004E4110 /* PushUpInside.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushUpInside.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF7991DE1F3A7004E4110 /* soundbuttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundbuttonUITests.swift; sourceTree = "<group>"; };
 		B91FF79B1DE1F3A7004E4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91FF7A71DE1F3DD004E4110 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -107,9 +107,9 @@
 		B91FF7771DE1F3A7004E4110 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B91FF7761DE1F3A7004E4110 /* soundbutton.app */,
-				B91FF78A1DE1F3A7004E4110 /* soundbuttonTests.xctest */,
-				B91FF7951DE1F3A7004E4110 /* soundbuttonUITests.xctest */,
+				B91FF7761DE1F3A7004E4110 /* PushUpInside.app */,
+				B91FF78A1DE1F3A7004E4110 /* PushUpInside.xctest */,
+				B91FF7951DE1F3A7004E4110 /* PushUpInside.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B91FF7751DE1F3A7004E4110 /* soundbutton */ = {
+		B91FF7751DE1F3A7004E4110 /* PushUpInside */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "soundbutton" */;
+			buildConfigurationList = B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInside" */;
 			buildPhases = (
 				B91FF7721DE1F3A7004E4110 /* Sources */,
 				B91FF7731DE1F3A7004E4110 /* Frameworks */,
@@ -185,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = soundbutton;
+			name = PushUpInside;
 			productName = soundbutton;
-			productReference = B91FF7761DE1F3A7004E4110 /* soundbutton.app */;
+			productReference = B91FF7761DE1F3A7004E4110 /* PushUpInside.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B91FF7891DE1F3A7004E4110 /* soundbuttonTests */ = {
+		B91FF7891DE1F3A7004E4110 /* PushUpInsideTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "soundbuttonTests" */;
+			buildConfigurationList = B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideTests" */;
 			buildPhases = (
 				B91FF7861DE1F3A7004E4110 /* Sources */,
 				B91FF7871DE1F3A7004E4110 /* Frameworks */,
@@ -203,14 +203,14 @@
 			dependencies = (
 				B91FF78C1DE1F3A7004E4110 /* PBXTargetDependency */,
 			);
-			name = soundbuttonTests;
+			name = PushUpInsideTests;
 			productName = soundbuttonTests;
-			productReference = B91FF78A1DE1F3A7004E4110 /* soundbuttonTests.xctest */;
+			productReference = B91FF78A1DE1F3A7004E4110 /* PushUpInside.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B91FF7941DE1F3A7004E4110 /* soundbuttonUITests */ = {
+		B91FF7941DE1F3A7004E4110 /* PushUpInsideUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "soundbuttonUITests" */;
+			buildConfigurationList = B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideUITests" */;
 			buildPhases = (
 				B91FF7911DE1F3A7004E4110 /* Sources */,
 				B91FF7921DE1F3A7004E4110 /* Frameworks */,
@@ -221,9 +221,9 @@
 			dependencies = (
 				B91FF7971DE1F3A7004E4110 /* PBXTargetDependency */,
 			);
-			name = soundbuttonUITests;
+			name = PushUpInsideUITests;
 			productName = soundbuttonUITests;
-			productReference = B91FF7951DE1F3A7004E4110 /* soundbuttonUITests.xctest */;
+			productReference = B91FF7951DE1F3A7004E4110 /* PushUpInside.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "soundbutton" */;
+			buildConfigurationList = B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "PushUpInside" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,9 +266,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B91FF7751DE1F3A7004E4110 /* soundbutton */,
-				B91FF7891DE1F3A7004E4110 /* soundbuttonTests */,
-				B91FF7941DE1F3A7004E4110 /* soundbuttonUITests */,
+				B91FF7751DE1F3A7004E4110 /* PushUpInside */,
+				B91FF7891DE1F3A7004E4110 /* PushUpInsideTests */,
+				B91FF7941DE1F3A7004E4110 /* PushUpInsideUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,12 +339,12 @@
 /* Begin PBXTargetDependency section */
 		B91FF78C1DE1F3A7004E4110 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91FF7751DE1F3A7004E4110 /* soundbutton */;
+			target = B91FF7751DE1F3A7004E4110 /* PushUpInside */;
 			targetProxy = B91FF78B1DE1F3A7004E4110 /* PBXContainerItemProxy */;
 		};
 		B91FF7971DE1F3A7004E4110 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91FF7751DE1F3A7004E4110 /* soundbutton */;
+			target = B91FF7751DE1F3A7004E4110 /* PushUpInside */;
 			targetProxy = B91FF7961DE1F3A7004E4110 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -447,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -462,10 +462,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = LPUD7WT43H;
 				INFOPLIST_FILE = soundbutton/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Peter.appera;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PushUpInside;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -478,10 +478,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = LPUD7WT43H;
 				INFOPLIST_FILE = soundbutton/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Peter.appera;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PushUpInside;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -492,11 +492,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = soundbuttonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PushUpInside;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soundbutton.app/soundbutton";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushUpInside.app/PushUpInside";
 			};
 			name = Debug;
 		};
@@ -505,11 +506,12 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = soundbuttonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PushUpInside;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soundbutton.app/soundbutton";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushUpInside.app/PushUpInside";
 			};
 			name = Release;
 		};
@@ -517,9 +519,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = soundbuttonUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PushUpInside;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = soundbutton;
 				USES_XCTRUNNER = YES;
@@ -530,9 +533,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = soundbuttonUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PushUpInside;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = soundbutton;
 				USES_XCTRUNNER = YES;
@@ -542,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "soundbutton" */ = {
+		B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "PushUpInside" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF79C1DE1F3A7004E4110 /* Debug */,
@@ -551,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "soundbutton" */ = {
+		B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInside" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF79F1DE1F3A7004E4110 /* Debug */,
@@ -560,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "soundbuttonTests" */ = {
+		B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF7A21DE1F3A7004E4110 /* Debug */,
@@ -569,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "soundbuttonUITests" */ = {
+		B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF7A51DE1F3A7004E4110 /* Debug */,
