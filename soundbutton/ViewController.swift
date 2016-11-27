@@ -11,10 +11,6 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-<<<<<<< Updated upstream
-    var url = URL(fileURLWithPath: Bundle.main.path(forResource: "george", ofType: "mp3")!)
-    var audioplayer = AVAudioPlayer()
-=======
     var url1 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
     var url2 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
     var url3 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
@@ -23,16 +19,12 @@ class ViewController: UIViewController {
     var audioplayer2 = AVAudioPlayer()
     var audioplayer3 = AVAudioPlayer()
     var audioplayer4 = AVAudioPlayer()
->>>>>>> Stashed changes
     var counter = 0
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         do{
-<<<<<<< Updated upstream
-            audioplayer = try AVAudioPlayer(contentsOf:url, fileTypeHint: nil)
-=======
             audioplayer1 = try AVAudioPlayer(contentsOfURL:url1, fileTypeHint: nil)
             audioplayer1.prepareToPlay()
             audioplayer2 = try AVAudioPlayer(contentsOfURL:url2, fileTypeHint: nil)
@@ -44,7 +36,6 @@ class ViewController: UIViewController {
             //audioplayer.currentTime = 0
             //audioplayer.play()
             counter = 0
->>>>>>> Stashed changes
         }catch
         {
          }
@@ -56,9 +47,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-<<<<<<< Updated upstream
-    @IBAction func playmyass(_ sender: AnyObject){
-=======
     func stopAll(){
         audioplayer1.stop()
         audioplayer1.currentTime = 0
@@ -72,7 +60,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func play1(sender: AnyObject){
->>>>>>> Stashed changes
         if counter == 0 {
             audioplayer1.currentTime = 0
             audioplayer1.play()
