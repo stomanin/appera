@@ -12,9 +12,9 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var url1 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
-    var url2 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
-    var url3 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
-    var url4 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
+    var url2 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("james", ofType: "mp3")!)
+    var url3 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("stanley", ofType: "mp3")!)
+    var url4 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("snap", ofType: "mp3")!)
     var audioplayer1 = AVAudioPlayer()
     var audioplayer2 = AVAudioPlayer()
     var audioplayer3 = AVAudioPlayer()
@@ -60,44 +60,40 @@ class ViewController: UIViewController {
     }
 
     @IBAction func play1(sender: AnyObject){
-        if counter == 0 {
+        if counter != 1 {
+            stopAll()
             audioplayer1.currentTime = 0
             audioplayer1.play()
             counter = 1
         }
-        else{
-            stopAll()
-        }
+        else{stopAll()}
     }
     @IBAction func play2(sender: AnyObject){
-        if counter == 0 {
+        if counter != 2 {
+            stopAll()
             audioplayer2.currentTime = 0
             audioplayer2.play()
-            counter = 1
+            counter = 2
         }
-        else{
-            stopAll()
-        }
+        else{stopAll()}
     }
     @IBAction func play3(sender: AnyObject){
-        if counter == 0 {
+        if counter != 3 {
+            stopAll()
             audioplayer3.currentTime = 0
             audioplayer3.play()
-            counter = 1
+            counter = 3
         }
-        else{
-            stopAll()
-        }
+        else{stopAll()}
     }
     @IBAction func play4(sender: AnyObject){
-        if counter == 0 {
+        if counter != 4 {
+            stopAll()
             audioplayer4.currentTime = 0
             audioplayer4.play()
-            counter = 1
+            counter = 4
         }
-        else{
-            stopAll()
-        }
+        else{stopAll()}
     }
   
     

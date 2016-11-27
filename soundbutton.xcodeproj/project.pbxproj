@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B9011DC21DEB42B80090BDC8 /* JBfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = B9011DC11DEB42B80090BDC8 /* JBfinal.png */; };
 		B9011DC41DEB42C50090BDC8 /* SNAP2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9011DC31DEB42C50090BDC8 /* SNAP2.jpg */; };
+		B91FBE181DEB57C5005E3C09 /* james.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B91FBE151DEB57C5005E3C09 /* james.mp3 */; };
+		B91FBE191DEB57C5005E3C09 /* stanley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B91FBE161DEB57C5005E3C09 /* stanley.mp3 */; };
+		B91FBE1A1DEB57C5005E3C09 /* snap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B91FBE171DEB57C5005E3C09 /* snap.mp3 */; };
 		B91FF77A1DE1F3A7004E4110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91FF7791DE1F3A7004E4110 /* AppDelegate.swift */; };
 		B91FF77C1DE1F3A7004E4110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91FF77B1DE1F3A7004E4110 /* ViewController.swift */; };
 		B91FF77F1DE1F3A7004E4110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91FF77D1DE1F3A7004E4110 /* Main.storyboard */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		B9011DC11DEB42B80090BDC8 /* JBfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JBfinal.png; sourceTree = "<group>"; };
 		B9011DC31DEB42C50090BDC8 /* SNAP2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SNAP2.jpg; sourceTree = "<group>"; };
+		B91FBE151DEB57C5005E3C09 /* james.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = james.mp3; sourceTree = "<group>"; };
+		B91FBE161DEB57C5005E3C09 /* stanley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stanley.mp3; sourceTree = "<group>"; };
+		B91FBE171DEB57C5005E3C09 /* snap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snap.mp3; sourceTree = "<group>"; };
 		B91FF7761DE1F3A7004E4110 /* soundbutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundbutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF7791DE1F3A7004E4110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B91FF77B1DE1F3A7004E4110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +151,9 @@
 		B91FF7A91DE1F73F004E4110 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				B91FBE151DEB57C5005E3C09 /* james.mp3 */,
+				B91FBE161DEB57C5005E3C09 /* stanley.mp3 */,
+				B91FBE171DEB57C5005E3C09 /* snap.mp3 */,
 				B91FF7AA1DE1F76A004E4110 /* george.mp3 */,
 			);
 			name = sounds;
@@ -269,11 +278,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91FBE191DEB57C5005E3C09 /* stanley.mp3 in Resources */,
 				B9A8F0971DEB33CA00B591A5 /* 5d8008a497f690dfdb954ac734f2b800.jpg in Resources */,
 				B9A8F09C1DEB363E00B591A5 /* mchammer.png in Resources */,
+				B91FBE181DEB57C5005E3C09 /* james.mp3 in Resources */,
 				B91FF7841DE1F3A7004E4110 /* LaunchScreen.storyboard in Resources */,
 				B91FF7811DE1F3A7004E4110 /* Assets.xcassets in Resources */,
 				B9011DC41DEB42C50090BDC8 /* SNAP2.jpg in Resources */,
+				B91FBE1A1DEB57C5005E3C09 /* snap.mp3 in Resources */,
 				B9011DC21DEB42B80090BDC8 /* JBfinal.png in Resources */,
 				B91FF77F1DE1F3A7004E4110 /* Main.storyboard in Resources */,
 				B91FF7AB1DE1F76A004E4110 /* george.mp3 in Resources */,
