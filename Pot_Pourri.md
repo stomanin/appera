@@ -5,3 +5,5 @@
 - DirtyDance
 - GoWild
 - IgotPower
+- WingApp
+- Wingman
