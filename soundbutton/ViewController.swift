@@ -11,7 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    var url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
+    var url = URL(fileURLWithPath: Bundle.main.path(forResource: "george", ofType: "mp3")!)
     var audioplayer = AVAudioPlayer()
     var counter = 0
     
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         do{
-            audioplayer = try AVAudioPlayer(contentsOfURL:url, fileTypeHint: nil)
+            audioplayer = try AVAudioPlayer(contentsOf:url, fileTypeHint: nil)
         }catch
         {
          }            // Do any additional setup after loading the view, typically from a nib.
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func playmyass(sender: AnyObject){
+    @IBAction func playmyass(_ sender: AnyObject){
         if counter == 0 {
             audioplayer.prepareToPlay()
             audioplayer.currentTime = 0
