@@ -1,0 +1,6 @@
+
+-When exiting with the home button, it should call stopAll() function
+
+-Center the images with constraints
+
+-Test on all phones and on horizontal layout
