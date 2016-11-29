@@ -1,3 +1,5 @@
+    
+
 //
 //  ViewController.swift
 //  soundbutton
@@ -11,10 +13,14 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    var url1 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("george", ofType: "mp3")!)
-    var url2 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("james", ofType: "mp3")!)
-    var url3 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("stanley", ofType: "mp3")!)
-    var url4 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("snap", ofType: "mp3")!)
+    let url1 = Bundle.main.url(forResource: "george", withExtension: "mp3")!
+    let url2 = Bundle.main.url(forResource: "james", withExtension: "mp3")!
+    let url3 = Bundle.main.url(forResource: "stanley", withExtension: "mp3")!
+    let url4 = Bundle.main.url(forResource: "snap", withExtension: "mp3")!
+    //var url1 = URL(fileURLWithPath: Bundle.path(forResource: "george", ofType: "mp3", inDirectory: "sounds")!)
+    //var url2 = NSURL(fileURLWithPath: Bundle.path(forResource: "james", ofType: "mp3", inDirectory: "sounds")!)
+    //var url3 = NSURL(fileURLWithPath: Bundle.path(forResource: "stanley", ofType: "mp3", inDirectory: "sounds")!)
+    //var url4 = NSURL(fileURLWithPath: Bundle.path(forResource: "snap", ofType: "mp3", inDirectory: "sounds")!)
     var audioplayer1 = AVAudioPlayer()
     var audioplayer2 = AVAudioPlayer()
     var audioplayer3 = AVAudioPlayer()
@@ -25,13 +31,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         do{
-            audioplayer1 = try AVAudioPlayer(contentsOfURL:url1, fileTypeHint: nil)
+            audioplayer1 = try AVAudioPlayer(contentsOf:url1)
             audioplayer1.prepareToPlay()
-            audioplayer2 = try AVAudioPlayer(contentsOfURL:url2, fileTypeHint: nil)
+            audioplayer2 = try AVAudioPlayer(contentsOf:url2)
             audioplayer2.prepareToPlay()
-            audioplayer3 = try AVAudioPlayer(contentsOfURL:url3, fileTypeHint: nil)
+            audioplayer3 = try AVAudioPlayer(contentsOf:url3, fileTypeHint: nil)
             audioplayer3.prepareToPlay()
-            audioplayer4 = try AVAudioPlayer(contentsOfURL:url4, fileTypeHint: nil)
+            audioplayer4 = try AVAudioPlayer(contentsOf:url4, fileTypeHint: nil)
             audioplayer4.prepareToPlay()
             //audioplayer.currentTime = 0
             //audioplayer.play()
@@ -42,6 +48,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
