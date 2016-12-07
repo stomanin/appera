@@ -48,23 +48,24 @@
 		B91FBE161DEB57C5005E3C09 /* stanley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stanley.mp3; sourceTree = "<group>"; };
 		B91FBE1B1DEB6D95005E3C09 /* james.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = james.mp3; sourceTree = "<group>"; };
 		B91FBE1D1DEB6DA1005E3C09 /* snap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snap.mp3; sourceTree = "<group>"; };
-		B91FF7761DE1F3A7004E4110 /* PushUpInside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUpInside.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91FF7761DE1F3A7004E4110 /* Shiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF7791DE1F3A7004E4110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B91FF77B1DE1F3A7004E4110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B91FF77E1DE1F3A7004E4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B91FF7801DE1F3A7004E4110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91FF7831DE1F3A7004E4110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91FF7851DE1F3A7004E4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B91FF78A1DE1F3A7004E4110 /* PushUpInside.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushUpInside.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91FF78A1DE1F3A7004E4110 /* Shiver.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shiver.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF78E1DE1F3A7004E4110 /* soundbuttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundbuttonTests.swift; sourceTree = "<group>"; };
 		B91FF7901DE1F3A7004E4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B91FF7951DE1F3A7004E4110 /* PushUpInside.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushUpInside.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91FF7951DE1F3A7004E4110 /* Shiver.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shiver.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91FF7991DE1F3A7004E4110 /* soundbuttonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundbuttonUITests.swift; sourceTree = "<group>"; };
 		B91FF79B1DE1F3A7004E4110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91FF7A71DE1F3DD004E4110 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B91FF7AA1DE1F76A004E4110 /* george.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = george.mp3; sourceTree = "<group>"; };
 		B9A8F0931DEB33CA00B591A5 /* 5d8008a497f690dfdb954ac734f2b800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5d8008a497f690dfdb954ac734f2b800.jpg; sourceTree = "<group>"; };
 		B9A8F09B1DEB363E00B591A5 /* mchammer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mchammer.png; sourceTree = "<group>"; };
+		B9F81C111DF812DF008BD29C /* Shiver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shiver.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		B91FF76D1DE1F3A7004E4110 = {
 			isa = PBXGroup;
 			children = (
+				B9F81C111DF812DF008BD29C /* Shiver.entitlements */,
 				B91FF7A71DE1F3DD004E4110 /* AudioToolbox.framework */,
 				B91FF7781DE1F3A7004E4110 /* george */,
 				B91FF78D1DE1F3A7004E4110 /* soundbuttonTests */,
@@ -107,9 +109,9 @@
 		B91FF7771DE1F3A7004E4110 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B91FF7761DE1F3A7004E4110 /* PushUpInside.app */,
-				B91FF78A1DE1F3A7004E4110 /* PushUpInside.xctest */,
-				B91FF7951DE1F3A7004E4110 /* PushUpInside.xctest */,
+				B91FF7761DE1F3A7004E4110 /* Shiver.app */,
+				B91FF78A1DE1F3A7004E4110 /* Shiver.xctest */,
+				B91FF7951DE1F3A7004E4110 /* Shiver.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B91FF7751DE1F3A7004E4110 /* PushUpInside */ = {
+		B91FF7751DE1F3A7004E4110 /* Shiver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInside" */;
+			buildConfigurationList = B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "Shiver" */;
 			buildPhases = (
 				B91FF7721DE1F3A7004E4110 /* Sources */,
 				B91FF7731DE1F3A7004E4110 /* Frameworks */,
@@ -185,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = PushUpInside;
+			name = Shiver;
 			productName = soundbutton;
-			productReference = B91FF7761DE1F3A7004E4110 /* PushUpInside.app */;
+			productReference = B91FF7761DE1F3A7004E4110 /* Shiver.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B91FF7891DE1F3A7004E4110 /* PushUpInsideTests */ = {
+		B91FF7891DE1F3A7004E4110 /* ShiverTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideTests" */;
+			buildConfigurationList = B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "ShiverTests" */;
 			buildPhases = (
 				B91FF7861DE1F3A7004E4110 /* Sources */,
 				B91FF7871DE1F3A7004E4110 /* Frameworks */,
@@ -203,14 +205,14 @@
 			dependencies = (
 				B91FF78C1DE1F3A7004E4110 /* PBXTargetDependency */,
 			);
-			name = PushUpInsideTests;
+			name = ShiverTests;
 			productName = soundbuttonTests;
-			productReference = B91FF78A1DE1F3A7004E4110 /* PushUpInside.xctest */;
+			productReference = B91FF78A1DE1F3A7004E4110 /* Shiver.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B91FF7941DE1F3A7004E4110 /* PushUpInsideUITests */ = {
+		B91FF7941DE1F3A7004E4110 /* ShiverUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideUITests" */;
+			buildConfigurationList = B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "ShiverUITests" */;
 			buildPhases = (
 				B91FF7911DE1F3A7004E4110 /* Sources */,
 				B91FF7921DE1F3A7004E4110 /* Frameworks */,
@@ -221,9 +223,9 @@
 			dependencies = (
 				B91FF7971DE1F3A7004E4110 /* PBXTargetDependency */,
 			);
-			name = PushUpInsideUITests;
+			name = ShiverUITests;
 			productName = soundbuttonUITests;
-			productReference = B91FF7951DE1F3A7004E4110 /* PushUpInside.xctest */;
+			productReference = B91FF7951DE1F3A7004E4110 /* Shiver.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -238,8 +240,13 @@
 				TargetAttributes = {
 					B91FF7751DE1F3A7004E4110 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = LPUD7WT43H;
+						DevelopmentTeam = PX68N98HX5;
 						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
 					};
 					B91FF7891DE1F3A7004E4110 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -253,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "PushUpInside" */;
+			buildConfigurationList = B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "Shiver" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,9 +273,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B91FF7751DE1F3A7004E4110 /* PushUpInside */,
-				B91FF7891DE1F3A7004E4110 /* PushUpInsideTests */,
-				B91FF7941DE1F3A7004E4110 /* PushUpInsideUITests */,
+				B91FF7751DE1F3A7004E4110 /* Shiver */,
+				B91FF7891DE1F3A7004E4110 /* ShiverTests */,
+				B91FF7941DE1F3A7004E4110 /* ShiverUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,12 +346,12 @@
 /* Begin PBXTargetDependency section */
 		B91FF78C1DE1F3A7004E4110 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91FF7751DE1F3A7004E4110 /* PushUpInside */;
+			target = B91FF7751DE1F3A7004E4110 /* Shiver */;
 			targetProxy = B91FF78B1DE1F3A7004E4110 /* PBXContainerItemProxy */;
 		};
 		B91FF7971DE1F3A7004E4110 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91FF7751DE1F3A7004E4110 /* PushUpInside */;
+			target = B91FF7751DE1F3A7004E4110 /* Shiver */;
 			targetProxy = B91FF7961DE1F3A7004E4110 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,9 +395,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Valerio Rossetti (PX68N98HX5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -407,10 +416,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos10.1;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -434,9 +444,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Valerio Rossetti (PX68N98HX5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -447,9 +459,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos10.1;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -460,12 +473,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = LPUD7WT43H;
+				DEVELOPMENT_TEAM = PX68N98HX5;
 				INFOPLIST_FILE = soundbutton/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Peter.appera;
-				PRODUCT_NAME = PushUpInside;
+				PRODUCT_BUNDLE_IDENTIFIER = Shiver.Shiver71;
+				PRODUCT_NAME = Shiver;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -476,12 +489,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = LPUD7WT43H;
+				DEVELOPMENT_TEAM = PX68N98HX5;
 				INFOPLIST_FILE = soundbutton/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Peter.appera;
-				PRODUCT_NAME = PushUpInside;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Shiver.Shiver71;
+				PRODUCT_NAME = Shiver;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -495,9 +509,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonTests;
-				PRODUCT_NAME = PushUpInside;
+				PRODUCT_NAME = Shiver;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushUpInside.app/PushUpInside";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiver.app/Shiver";
 			};
 			name = Debug;
 		};
@@ -509,9 +523,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonTests;
-				PRODUCT_NAME = PushUpInside;
+				PRODUCT_NAME = Shiver;
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushUpInside.app/PushUpInside";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shiver.app/Shiver";
 			};
 			name = Release;
 		};
@@ -522,7 +536,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonUITests;
-				PRODUCT_NAME = PushUpInside;
+				PRODUCT_NAME = Shiver;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = soundbutton;
 				USES_XCTRUNNER = YES;
@@ -536,7 +550,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appera.soundbuttonUITests;
-				PRODUCT_NAME = PushUpInside;
+				PRODUCT_NAME = Shiver;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = soundbutton;
 				USES_XCTRUNNER = YES;
@@ -546,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "PushUpInside" */ = {
+		B91FF7711DE1F3A7004E4110 /* Build configuration list for PBXProject "Shiver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF79C1DE1F3A7004E4110 /* Debug */,
@@ -555,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInside" */ = {
+		B91FF79E1DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "Shiver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF79F1DE1F3A7004E4110 /* Debug */,
@@ -564,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideTests" */ = {
+		B91FF7A11DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "ShiverTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF7A21DE1F3A7004E4110 /* Debug */,
@@ -573,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "PushUpInsideUITests" */ = {
+		B91FF7A41DE1F3A7004E4110 /* Build configuration list for PBXNativeTarget "ShiverUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91FF7A51DE1F3A7004E4110 /* Debug */,

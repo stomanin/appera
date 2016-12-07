@@ -1,5 +1,3 @@
-    
-
 //
 //  ViewController.swift
 //  soundbutton
@@ -27,7 +25,7 @@ class ViewController: UIViewController {
     var audioplayer4 = AVAudioPlayer()
     var counter = 0
     
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         do{
